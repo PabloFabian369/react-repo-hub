@@ -2,7 +2,36 @@
 import React, {Fragment} from 'react';
 // import './App.css';
 import "./styles/styles.scss";
-import Curso from './Curso'
+// import Curso from './Curso';
+// import Propiedades from "./Propiedades";
+// import PropiedadesDestructuradasParametro from './Component/PropiedadesDestructuradasParametro';
+// import PropiedadesDestructuradas from './Component/PropiedadesDestructuradas'
+import Validacion from './Component/Validacion';
+import ValidacionPropTypes from './Component/ValidacionPropTypes';
+
+
+const cursosArray =[
+  {
+    "titulo": "React 0",
+    "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+    "price": 30,
+    "profesor": "Quiroga"
+  },
+  {
+    "titulo": "Boostrap",
+    "image": "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
+    "price": 13,
+    "profesor": "Alvaro"
+  },
+  {
+    "titulo": "Node.JS",
+    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--vrvqSDHx--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/s15ubgod56c7butyt7eu.jpg",
+    "price": 23,
+    "profesor": "Alexis"
+  }
+  
+
+]
 
 // Reglas JSX:
   // 1. Toda Etiqueta debe cerrar etiquetas (incluso img se cierra)
@@ -19,19 +48,27 @@ const App = () => {
     // Revisar la consola en busca de advertencias
   <>
     
-    {/* <div className="card" style={{width: "18rem"}}>
-      <img className="card-img-top" src="https://avatars.githubusercontent.com/u/6853419?s=200&v=4" alt="Card cap error" />
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="http://localhost" className="btn btn-primary">Go somewhere</a>
-      </div>
-    </div> */}
+    {/* <Curso /> */}
+    {/* <Propiedades /> */}
+    {/* <PropiedadesDestructuradasParametro 
+      title='React'
+      image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
+      price= "30 usd"
+    />
 
-    <Curso />
-        
+    <PropiedadesDestructuradas
+      title='Boostrap'
+      image="https://avatars.githubusercontent.com/u/2918581?s=280&v=4"
+      price= "20 usd"
+    /> */}
+  {/* <Validacion />
+  <ValidacionPropTypes  /> */}
 
-     
+     <div>
+        {
+          cursosArray.map( cursoParametro =><ValidacionPropTypes title={cursoParametro.titulo} image={cursoParametro.image} price={cursoParametro.price} /> )
+        }
+     </div>
   </>
   )
 };

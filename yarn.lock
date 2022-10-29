@@ -1190,6 +1190,14 @@
   resolved "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
+"@edteam/edui@^1.4.6-beta":
+  version "1.4.6-beta"
+  resolved "https://registry.yarnpkg.com/@edteam/edui/-/edui-1.4.6-beta.tgz#41bb6d08e32c77b45bc2e2c9e56594ffe58f933d"
+  integrity sha512-N2hrt+1OmNGleZQdYzMrJqS0R7+bVWXBRzZa7kDAANoCJQyRTjZra/2nNeJDjBtOkBP6jHakxAIrJ1o96xw2Yg==
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+
 "@eslint/eslintrc@^1.3.3":
   version "1.3.3"
   resolved "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.3.tgz"
@@ -3195,6 +3203,11 @@ cjs-module-lexer@^1.0.0:
   resolved "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
 
+classnames@^2.2.6:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 clean-css@^5.2.2:
   version "5.3.1"
   resolved "https://registry.npmjs.org/clean-css/-/clean-css-5.3.1.tgz"
@@ -3953,7 +3966,7 @@ ecc-jsbn@~0.1.1:
 
 ed-grid@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.npmjs.org/ed-grid/-/ed-grid-3.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/ed-grid/-/ed-grid-3.0.2.tgz#f75e95e16153ef5437f8323ad53a31011f4b1501"
   integrity sha512-2wFXy42Z0YAi6yZOB/9cajGtQf4n/ueUKaHJaeQeyjoPQWZNBBG1x1cifobMGXzQPnfMfP2wYrhvdcSACmU1ag==
 
 edteam-style-guides@0.0.79:
@@ -3965,7 +3978,7 @@ edteam-style-guides@0.0.79:
 
 edteam-style-guides@^0.0.91:
   version "0.0.91"
-  resolved "https://registry.npmjs.org/edteam-style-guides/-/edteam-style-guides-0.0.91.tgz"
+  resolved "https://registry.yarnpkg.com/edteam-style-guides/-/edteam-style-guides-0.0.91.tgz#ef1a31fcb65c61765310884b69668446881bb375"
   integrity sha512-U01o9Cf/euerT8MQ3ZBbkJVIrRD9LCi8nbuX3gSeVzS02Xq8Xv1DghklXbgDVaWXiz5aizknRTEdlcee7roLNA==
   dependencies:
     edteam-style-guides "0.0.79"
@@ -6798,7 +6811,7 @@ node-releases@^2.0.6:
 
 node-sass@^7.0.3:
   version "7.0.3"
-  resolved "https://registry.npmjs.org/node-sass/-/node-sass-7.0.3.tgz"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-7.0.3.tgz#7620bcd5559c2bf125c4fbb9087ba75cd2df2ab2"
   integrity sha512-8MIlsY/4dXUkJDYht9pIWBhMil3uHmE8b/AdJPjmFn1nBx9X9BASzfzmsCy0uCCb8eqI3SYYzVPDswWqSx7gjw==
   dependencies:
     async-foreach "^0.1.3"
@@ -7862,7 +7875,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==

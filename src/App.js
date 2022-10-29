@@ -6,32 +6,11 @@ import "./styles/styles.scss";
 // import Propiedades from "./Propiedades";
 // import PropiedadesDestructuradasParametro from './Component/PropiedadesDestructuradasParametro';
 // import PropiedadesDestructuradas from './Component/PropiedadesDestructuradas'
-import Validacion from './Component/Validacion';
-import ValidacionPropTypes from './Component/ValidacionPropTypes';
+// import Validacion from './Component/Validacion';
+// import ValidacionPropTypes from './Component/ValidacionPropTypes';
+import Banner from './Component/Banner'; 
+import Formulario from './Component/Formulario'
 
-
-const cursosArray =[
-  {
-    "titulo": "React 0",
-    "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
-    "price": 30,
-    "profesor": "Quiroga"
-  },
-  {
-    "titulo": "Boostrap",
-    "image": "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
-    "price": 13,
-    "profesor": "Alvaro"
-  },
-  {
-    "titulo": "Node.JS",
-    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--vrvqSDHx--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/s15ubgod56c7butyt7eu.jpg",
-    "price": 23,
-    "profesor": "Alexis"
-  }
-  
-
-]
 
 // Reglas JSX:
   // 1. Toda Etiqueta debe cerrar etiquetas (incluso img se cierra)
@@ -64,11 +43,19 @@ const App = () => {
   {/* <Validacion />
   <ValidacionPropTypes  /> */}
 
-     <div>
+     {/* <div>
         {
           cursosArray.map( cursoParametro =><ValidacionPropTypes title={cursoParametro.titulo} image={cursoParametro.image} price={cursoParametro.price} /> )
         }
-     </div>
+     </div> */}
+
+
+     <Banner />
+     <Formulario />
+
+
+
+
   </>
   )
 };
